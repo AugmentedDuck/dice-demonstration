@@ -37,19 +37,19 @@ function displayText(){
 
   if ((width * 1.1) / terninger.length < 24) {
     textSize((width * 1.1) / terninger.length);
-    text(terninger, width / 2, 100);
+    text("terning værdier:\n" + terninger, width / 2, 100);
   } else {
     textSize(24);
-    text(terninger, width / 2, 100);
+    text("terning værdier:\n" + terninger, width / 2, 100);
   }
 
   textSize(24);
   if ((width * 0.75) / dataTable.length < 24) {
     textSize((width * 0.75) / dataTable.length);
-    text(dataTable, width / 2, 200);
+    text("Antal terninger:\n" + dataTable, width / 2, 200);
   } else {
     textSize(24);
-    text(dataTable, width / 2, 200);
+    text("Antal terninger:\n" + dataTable, width / 2, 200);
   }
 }
 
