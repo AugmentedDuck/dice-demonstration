@@ -37,10 +37,10 @@ function displayText(){
 
   if ((width * 1.1) / terninger.length < 24) {
     textSize((width * 1.1) / terninger.length);
-    text("terning værdier:\n" + terninger, width / 2, 100);
+    text("Terning værdier:\n" + terninger, width / 2, 100);
   } else {
     textSize(24);
-    text("terning værdier:\n" + terninger, width / 2, 100);
+    text("Terning værdier:\n" + terninger, width / 2, 100);
   }
 
   textSize(24);
