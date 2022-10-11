@@ -60,7 +60,7 @@ function displayButtons(){
   reRollButton.mousePressed(reRoll);
 
   let autoButton = createButton("AUTO ROLL");
-  autoButton.position(width / 2 + 5, height / 2 + 110);
+  autoButton.position(width / 2 - 105, height / 2);
   autoButton.size(100, 100);
   autoButton.mousePressed(autoRoll);
 }
